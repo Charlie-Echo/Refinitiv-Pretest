@@ -1,0 +1,10 @@
+node_modules
+build
+coverage
+.vscode
+.DS_STORE
+tmp
+mix-manifest.json
+hot
+public/js/*
+public/css/*
