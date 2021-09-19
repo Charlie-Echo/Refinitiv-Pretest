@@ -143,6 +143,12 @@
     }
 
     .table-scroll {
-        overflow-x: scroll;
+        overflow-x: auto;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .table-scroll {
+            overflow-x: scroll;
+        }
     }
 </style>
